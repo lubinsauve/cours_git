@@ -3,3 +3,18 @@ def f():
 
 def g():
     return 'Oui'
+
+'dans un dossier'
+$ git clone 'adresse du répertoire git'
+(ça crée un sous-dossier dans ce dossier)
+
+'dans ce sous-dossier'
+'ouvrir VSCode ; créer des fichiers de code ; c est la working area'
+$ git add 'nom du fichier code (avec le .chose)'
+(ça aggrège les changement dans la stagged area)
+
+$ git commit -m"ici message"
+(ça crée un point de chamngement avec tous les chamgements aggrégés)
+
+$ git push
+(ça envoie le commit en ligne sur git hub dans le répertoire)
