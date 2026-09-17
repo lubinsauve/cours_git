@@ -21,6 +21,12 @@ $ git push
 
 j'écris des trucs pour le quatrième commit
 
+'créeons un arbre'
+$ git config --global alias.tree "log --oneline --decorate --all --graph"
+
+'constatons l'arbre'
+$ git tree
+
 'créeons une nouvelle branche'
 $ git branch 'nom de la branche'
 
