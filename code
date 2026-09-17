@@ -33,4 +33,8 @@ $ git branch 'nom de la branche'
 $ git checkout 'nom de la branche'
 (ça change la branche active)
 
+<<<<<<< HEAD
 ça va faire un arbre du futur là c'est exceptionnel
+=======
+tout plein de choses
+>>>>>>> square
