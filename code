@@ -18,3 +18,5 @@ $ git commit -m"ici message"
 
 $ git push
 (ça envoie le commit en ligne sur git hub dans le répertoire)
+
+j'écris des trucs pour le quatrième commit
