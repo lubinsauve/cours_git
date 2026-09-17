@@ -1,2 +1,5 @@
-def f(x):
+def f():
     return False
+
+def g():
+    return 'Oui'
