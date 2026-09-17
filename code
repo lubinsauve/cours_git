@@ -20,3 +20,11 @@ $ git push
 (ça envoie le commit en ligne sur git hub dans le répertoire)
 
 j'écris des trucs pour le quatrième commit
+
+'créeons une nouvelle branche'
+$ git branch 'nom de la branche'
+
+$ git checkout 'nom de la branche'
+(ça change la branche active)
+
+tout plein de choses
