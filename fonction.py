@@ -4,5 +4,3 @@ def f(x):
 
 def Racine():
     return 'Bérénice'
-
-tout va pour le mieux

@@ -1,9 +1,3 @@
-def f():
-    return False
-
-def g():
-    return 'Oui'
-
 'dans un dossier'
 $ git clone 'adresse du répertoire git'
 (ça crée un sous-dossier dans ce dossier)
@@ -33,8 +27,5 @@ $ git branch 'nom de la branche'
 $ git checkout 'nom de la branche'
 (ça change la branche active)
 
-<<<<<<< HEAD
-ça va faire un arbre du futur là c'est exceptionnel
-=======
-tout plein de choses
->>>>>>> square
+$ git merge 'nom de la branche'
+(rattache la branche sur le main)
