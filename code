@@ -1,19 +1,20 @@
 'dans un dossier'
 $ git clone 'adresse du répertoire git'
-(ça crée un sous-dossier dans ce dossier)
+ça crée un sous-dossier dans ce dossier
 
 'dans ce sous-dossier'
-'ouvrir VSCode ; créer des fichiers de code ; c est la working area'
+ouvrir VSCode (dans VSCode : open folder 'sous-dossier associé au répertoire git)
+créer des fichiers de code
+c'est la working area
+
 $ git add 'nom du fichier code (avec le .chose)'
-(ça aggrège les changement dans la stagged area)
+ça aggrège les changement dans la stagged area
 
 $ git commit -m"ici message"
-(ça crée un point de chamngement avec tous les chamgements aggrégés)
+ça crée un point de chamngement avec tous les chamgements aggrégés
 
 $ git push
-(ça envoie le commit en ligne sur git hub dans le répertoire)
-
-j'écris des trucs pour le quatrième commit
+ça envoie le commit en ligne sur git hub dans le répertoire
 
 'créeons un arbre'
 $ git config --global alias.tree "log --oneline --decorate --all --graph"
@@ -25,7 +26,7 @@ $ git tree
 $ git branch 'nom de la branche'
 
 $ git checkout 'nom de la branche'
-(ça change la branche active)
+ça change la branche active
 
 $ git merge 'nom de la branche'
-(rattache la branche sur le main)
+ça rattache la branche sur le main
