@@ -30,3 +30,5 @@ $ git checkout 'nom de la branche'
 
 $ git merge 'nom de la branche'
 ça rattache la branche sur le main
+
+seize
