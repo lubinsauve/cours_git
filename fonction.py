@@ -3,5 +3,3 @@ def f(x):
 
 def Racine():
     return 'Bérénice'
-
-18
